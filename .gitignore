@@ -1,0 +1,35 @@
+# --- Secrets ---
+.env
+sdkconfig
+sdkconfig.old
+
+# --- ESP-IDF ---
+build/
+managed_components/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# --- Local data ---
+*.db
+*.sqlite3
+
+# --- IDE ---
+.vscode/
+.idea/
+.vs/
+
+# --- Altium ---
+History/
+__Previews/
+Project Logs for */
+
+# --- OS ---
+Thumbs.db
+desktop.ini
+.DS_Store
